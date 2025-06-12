@@ -61,3 +61,11 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+###############################################################################
+# Force GitHub to detect C# and Razor as main language, and ignore CSS/JS.
+###############################################################################
+*.cs linguist-detectable=true
+*.cshtml linguist-detectable=true
+
+*.css linguist-vendored
+*.js linguist-vendored
